@@ -248,7 +248,7 @@ function Index() {
             <video
               src={filet.url}
               poster={poster.url}
-              className="aspect-9/16 h-full w-full object-cover"
+              className="h-full w-full object-cover"
               autoPlay
               muted
               loop
