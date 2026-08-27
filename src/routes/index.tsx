@@ -6,6 +6,7 @@ import closeup from "@/assets/closeup.jpg.asset.json";
 import grill from "@/assets/grill.jpg.asset.json";
 import ambiance from "@/assets/ambiance.jpg.asset.json";
 import filet from "@/assets/filet.mp4.asset.json";
+import poster from "@/assets/poster.jpg.asset.json";
 
 const WHATSAPP = "https://wa.me/50223781449";
 const PHONE = "2378-1449";
@@ -246,7 +247,8 @@ function Index() {
           <div className="relative mx-auto w-full max-w-sm overflow-hidden shadow-[var(--shadow-luxe)]">
             <video
               src={filet.url}
-              className="h-full w-full object-cover"
+              poster={poster.url}
+              className="aspect-9/16 h-full w-full object-cover"
               autoPlay
               muted
               loop
