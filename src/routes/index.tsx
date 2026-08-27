@@ -420,6 +420,17 @@ function Index() {
             © {new Date().getFullYear()} Como Reyes Steakhouse. Todos los
             derechos reservados.
           </p>
+          <p className="text-xs text-muted-foreground">
+            Desarrollado por:{" "}
+            <a
+              href="https://abejotas.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold hover:underline"
+            >
+              Abejotas
+            </a>
+          </p>
         </div>
       </footer>
 
